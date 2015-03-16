@@ -1,0 +1,10 @@
+{application, woodman,
+ [
+  {description, "Tool for getting supervisor stats"},
+  {vsn, "0.0.1"},
+  {modules, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]}
+ ]}.
